@@ -1,0 +1,10 @@
+D:\proj в 3\Student1\Student1\bin\Debug\KBJU.exe.config
+D:\proj в 3\Student1\Student1\obj\Debug\KBJU.csprojResolveAssemblyReference.cache
+D:\proj в 3\Student1\Student1\obj\Debug\KBJU.Properties.Resources.resources
+D:\proj в 3\Student1\Student1\obj\Debug\KBJU.csproj.GenerateResource.Cache
+D:\proj в 3\Student1\Student1\bin\Debug\KBJU.exe
+D:\proj в 3\Student1\Student1\bin\Debug\KBJU.pdb
+D:\proj в 3\Student1\Student1\obj\Debug\KBJU.Form1.resources
+D:\proj в 3\Student1\Student1\obj\Debug\KBJU.Form2.resources
+D:\proj в 3\Student1\Student1\obj\Debug\KBJU.exe
+D:\proj в 3\Student1\Student1\obj\Debug\KBJU.pdb
