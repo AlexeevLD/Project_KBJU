@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/16/2019 15:11:54" ReportInfo.Modified="12/16/2019 23:09:38" ReportInfo.CreatorVersion="2020.1.5.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" Guides="708.75" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="tb_name" Left="9.45" Top="9.45" Width="689.85" Height="18.9" Text="name_menu" HorzAlign="Center" Font="Arial, 12pt, style=Bold" TextFill.Color="DarkGreen"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="39.8" Width="718.2" Height="18.9"/>
+    <DataBand Name="DataDay" Top="60.7" Width="718.2" Height="18.9">
+      <TextObject Name="tb_day" Left="9.45" Width="236.25" Height="18.9" Text="day" Font="Arial, 12pt, style=Bold" TextFill.Color="192, 0, 0"/>
+    </DataBand>
+    <DataBand Name="DataHead" Top="81.6" Width="718.2" Height="18.9">
+      <TableObject Name="Table3" Left="9.45" Width="689.85" Height="18.9" Border.Lines="All" Fill.Color="LightGray">
+        <TableColumn Name="Column31" Width="124.1"/>
+        <TableColumn Name="Column32" Width="265.85"/>
+        <TableColumn Name="Column33" Width="76.87"/>
+        <TableColumn Name="Column34" Width="86.3"/>
+        <TableColumn Name="Column35" Width="67.42"/>
+        <TableColumn Name="Column36" Width="69.31"/>
+        <TableRow Name="Row19">
+          <TableCell Name="Cell91" Border.Lines="All" Fill.Color="224, 224, 224" Text="Прием пищи" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell92" Border.Lines="All" Fill.Color="224, 224, 224" Text="Блюдо" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell93" Border.Lines="All" Fill.Color="224, 224, 224" Text="Ккал" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell94" Border.Lines="All" Fill.Color="224, 224, 224" Text="Белки" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell95" Border.Lines="All" Fill.Color="224, 224, 224" Text="Жиры" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell96" Fill.Color="224, 224, 224" Text="Углеводы" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <DataBand Name="DataLine" Top="102.5" Width="718.2" Height="18.9" CanGrow="true" CanShrink="true" CanBreak="true">
+      <TableObject Name="Table1" Left="9.45" Width="689.85" Height="18.9" Border.Lines="All" Fill.Color="LightGray">
+        <TableColumn Name="Column20" Width="124.1"/>
+        <TableColumn Name="Column21" Width="265.85"/>
+        <TableColumn Name="Column22" Width="76.87"/>
+        <TableColumn Name="Column23" Width="86.3"/>
+        <TableColumn Name="Column24" Width="67.42"/>
+        <TableColumn Name="Column30" Width="69.31"/>
+        <TableRow Name="Row17">
+          <TableCell Name="Cell80" Border.Lines="All" Fill.Color="White" Font="Arial, 10pt">
+            <TextObject Name="meal" Width="122.85" Height="18.9" Text="[Table.meal]" VertAlign="Center" Font="Arial, 8pt"/>
+          </TableCell>
+          <TableCell Name="Cell81" Border.Lines="All" Fill.Color="White" Font="Arial, 10pt">
+            <TextObject Name="col2" Width="264.6" Height="18.9" Text="[Table.name_bludo]" VertAlign="Center" Font="Arial, 8pt"/>
+          </TableCell>
+          <TableCell Name="Cell82" Border.Lines="All" Fill.Color="White" Font="Arial, 10pt">
+            <TextObject Name="col3" Width="75.6" Height="18.9" Text="[Table.kilocalorii]" VertAlign="Center" Font="Arial, 8pt"/>
+          </TableCell>
+          <TableCell Name="Cell83" Border.Lines="All" Fill.Color="White" Font="Arial, 10pt">
+            <TextObject Name="col4" Width="85.05" Height="18.9" Text="[Table.belki]" VertAlign="Center" Font="Arial, 8pt"/>
+          </TableCell>
+          <TableCell Name="Cell84" Border.Lines="All" Fill.Color="White" Font="Arial, 10pt">
+            <TextObject Name="col5" Width="66.15" Height="18.9" Text="[Table.zhiry]" VertAlign="Center" Font="Arial, 8pt"/>
+          </TableCell>
+          <TableCell Name="Cell90" Fill.Color="White" Font="Arial, 10pt">
+            <TextObject Name="Text1" Width="66.15" Height="18.9" Text="[Table.uglevody]" VertAlign="Center" Font="Arial, 8pt"/>
+          </TableCell>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <DataBand Name="DataItog" Top="123.4" Width="718.2" Height="66.15">
+      <TextObject Name="Text6" Left="9.45" Top="9.45" Width="189" Height="18.9" Text="Итого за день" Font="Arial, 12pt, style=Bold" TextFill.Color="192, 0, 0"/>
+      <TableObject Name="tab_itog" Left="9.45" Top="47.25" Width="551.88" Height="18.9">
+        <TableColumn Name="Column16" Width="137.97"/>
+        <TableColumn Name="Column17" Width="137.97"/>
+        <TableColumn Name="Column18" Width="137.97"/>
+        <TableColumn Name="Column19" Width="137.97"/>
+        <TableRow Name="Row16">
+          <TableCell Name="Cell76" Border.Lines="All" Font="Arial, 10pt">
+            <TextObject Name="icol1" Width="132.3" Height="18.9" Text="[Tab1.kkal]" VertAlign="Center" Font="Arial, 9pt"/>
+          </TableCell>
+          <TableCell Name="Cell77" Border.Lines="All" Font="Arial, 10pt">
+            <TextObject Name="icol2" Width="132.3" Height="18.9" Text="[Tab1.belki]" VertAlign="Center" Font="Arial, 9pt"/>
+          </TableCell>
+          <TableCell Name="Cell78" Border.Lines="All" Font="Arial, 10pt">
+            <TextObject Name="icol3" Width="132.3" Height="18.9" Text="[Tab1.zhir]" VertAlign="Center" Font="Arial, 9pt"/>
+          </TableCell>
+          <TableCell Name="Cell79" Border.Lines="All" Font="Arial, 10pt">
+            <TextObject Name="icol4" Width="132.3" Height="18.9" Text="[Tab1.uglevod]" VertAlign="Center" Font="Arial, 9pt"/>
+          </TableCell>
+        </TableRow>
+      </TableObject>
+      <TableObject Name="Table2" Left="9.45" Top="28.35" Width="551.88" Height="18.9">
+        <TableColumn Name="Column25" Width="137.97"/>
+        <TableColumn Name="Column26" Width="137.97"/>
+        <TableColumn Name="Column27" Width="137.97"/>
+        <TableColumn Name="Column28" Width="137.97"/>
+        <TableRow Name="Row18">
+          <TableCell Name="Cell85" Border.Lines="All" Fill.Color="Silver" Text="Ккал" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell86" Border.Lines="All" Fill.Color="Silver" Text="Белки" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell87" Border.Lines="All" Fill.Color="Silver" Text="Жиры" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell88" Border.Lines="All" Fill.Color="Silver" Text="Углеводы" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="191.55" Width="718.2" Height="28.35"/>
+  </ReportPage>
+</Report>
